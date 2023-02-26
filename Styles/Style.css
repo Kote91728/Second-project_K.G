@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @font-face {
+    font-family: 'HelveticaNeue';
+    src: url('Styles/fonts/For-use/HelveticaNeueMedium.woff2') format('woff2'),
+        url('Styles/fonts/For-use/HelveticaNeueMedium.woff') format('woff'),
+        url('Styles/fonts/For-use/HelveticaNeueMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+} */
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* Header */
+header{
+    height: 387.56px;
+    padding-top: 40px;
+    background-color: #0020F4;
+}
+.container{
+    max-width: 1475px;
+    margin: 0 auto;
+}
+header li{
+    margin-left: 40px;
+}
+header nav a{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* a{
+    font-family: HelveticaNeue;
+} */
+nav,
+nav ul,
+nav li{
+    display: inline-block;
+}
+nav,
+.logo{
+    vertical-align: middle;
+}
+.contact{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 39.5px;
+    padding-right: 39.5px;
+    border-radius: 28px;
+    font-weight: bold;
+    color: #171717;
+    background-color: #FFFFFF;
+}
+section{
+    margin: auto;
+    margin-top: -172px;
+    max-width: 1195px;
+    width: 100%;
+}
+.Modern-building{
+    max-width: 1195px;
+    width: 100%;
+    border-radius: 15px;
+}
+.main-title{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #171717;
+}
+.images{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    row-gap: 25px;
+}
+.small-images{
+    max-width: 219px;
+    width: 100%;
+    border-radius: 15px;
+}
+.main-paragraph{
+    margin: auto;
+    max-width: 915px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #171717;
+}
+.div-paragrap{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.secondary-p{
+    margin-top: 20px;
+}
+/* მომდევნო ორი თეგი თუ არის სწორად შესრულებული? */
+.a-more-info{
+    margin: auto;
+    margin-top: 58px;
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+.a-more-info a{
+    max-width: 341px;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 57px;
+    padding-right: 77px;
+    border-radius: 28px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0A22F4;
+}
+/* Footer */
